@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+.poppins{
+  font-family: 'Poppins', sans-serif;
+}
+
+.jakarta{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: #969696;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+}
+
+.desCustomScrollbar::-webkit-scrollbar {
+  height: 1px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #6d7278, #2c3035);
+  border-radius: 20px;
+  box-shadow: inset 2px 2px 6px rgba(0, 0, 0, 0.5),
+              inset -2px -2px 6px rgba(255, 255, 255, 0.1);
+  transition: background 0.3s ease;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #7d8288, #3b3f45);
+}
+
+hr {
+  border: none;
+  height: 6px; /* same as your border-bottom thickness */
+  width: 80%;
+  border-radius: 10px;
+  background:#303339 ;
+  box-shadow: inset 2px 2px 6px rgba(0, 0, 0, 0.5),
+              inset -2px -2px 6px rgba(255, 255, 255, 0.1);
+}
